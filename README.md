@@ -1,5 +1,5 @@
-# Name: Indhu Priya.T
-# Reg.No: 24007533 
+# Name: Iniya.E
+# Reg.No: 24900540 
 # Experiment-6: Monitoring distance value in Thing speak cloud using ultrasonic sensor and ESP32 controller
 
 # Uploading ultrasonic sensor data in Thing Speak cloud
@@ -102,8 +102,8 @@ Prototype and build IoT systems without setting up servers or developing web sof
 #include "ThingSpeak.h"
 #include <WiFi.h>
 
-char ssid[] = "Yo-Yo";
-char pass[] = "pizza1010"; 
+char ssid[] = "Galaxy A14 5G 9AB3";
+char pass[] = "0987654321"; 
 
 
 const int trigger = 25;
@@ -112,9 +112,9 @@ long T;
 float distanceCM;
 WiFiClient  client;
 
-unsigned long myChannelField = 2794301; 
+unsigned long myChannelField = 2785407; 
 const int ChannelField = 1; 
-const char * myWriteAPIKey = "VTW7ONZ22LB676WY"; 
+const char * myWriteAPIKey = "S57YJQPWGYSOFWAJ"; 
 void setup()
 {
   Serial.begin(115200);
